@@ -1,20 +1,24 @@
 .profile-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
     width: 100%;
-    padding: 20px 40px;
+    gap: 20px;
+    padding: 10px;
     background-color: #F2F0EF;
     flex-grow: 1;
     flex: 2;
+    box-sizing: border-box;
+    justify-items: center;
+    justify-content: space-between;
 }
 .profilebox {
     display: flex;
-    max-width: 400px;
+    max-width: 300px;
+    box-sizing: border-box;
     width: 100%;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 0px;
     background-color: #B6ACD1;
     padding: 18px;
     border-radius: 25px;

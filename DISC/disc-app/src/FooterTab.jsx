@@ -3,17 +3,17 @@ import './footertab.css';
 function FooterTab() {
     return (
         <footer>
-  <nav className="nav-bar">
-    <ul className="nav-list">
-      <li className="nav-left">
-      <a href= "#top" className="footer link">Social Medias</a>
+  <nav className="footer-bar">
+    <ul className="footer-list">
+      <li className="footer-left">
+      <a href= "#top" className="footer footer-link">Social Medias</a>
       </li>
-      <li className="nav-center">
-      <a href= "#top" className="footer link button">Sign In</a>
-      <a href= "#top" className="footer link button">Register</a>
+      <li className="footer-center">
+      <a href= "#top" className="footer footer-link button">Sign In</a>
+      <a href= "#top" className="footer footer-link button">Register</a>
       </li>
-      <li className="nav-right">
-      <a href= "#top" className="footer link">Help</a>
+      <li className="footer-right">
+      <a href= "#top" className="footer footer-link">Help</a>
       </li>
     </ul>
   </nav>

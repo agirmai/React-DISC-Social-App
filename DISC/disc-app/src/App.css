@@ -11,3 +11,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  max-width: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+

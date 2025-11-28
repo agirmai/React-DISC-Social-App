@@ -1,14 +1,15 @@
 footer {
+    width: 100%;
     background-color: #4E2A84;
     color: whitesmoke;
     padding: 20px 40px;
 }
-.nav-bar {
+.footer-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.nav-left, .nav-center, .nav-right {
+.footer-left, .footer-center, .footer-right {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -20,11 +21,11 @@ footer {
     color: whitesmoke;
     font-weight: bolder;
 }
-.nav-center {
+.footer-center {
     flex: 1;
     justify-content: center;
 }
-.nav-list {
+.footer-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,9 +34,16 @@ footer {
     padding: 0;
     width: 100%
 }
-.footer.link.button:first-child {
+.footer.footer-link.button:first-child {
     background-color: #C9A0DC;
 }
-.footer.link.button:last-child {
+.footer.footer-link.button:last-child {
     background-color: #C9A0DC;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
 }

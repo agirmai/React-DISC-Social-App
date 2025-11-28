@@ -22,7 +22,7 @@
 .nav-list {
     list-style: none;
     display: flex;
-    gap: 0px;
+    gap: 60px;
     margin: 0;
     padding: 0px;
 }
