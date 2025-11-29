@@ -17,15 +17,15 @@ function Home() {
       <YourProfile />
       <div className="container">
       <div className="profile-grid">
-        <ProfileButton name="JoJo" hobbies="Fighting" interests="Marine Biology" want_to_try="Trip to Egypt"/>
-        <ProfileButton name="Abem" hobbies="Eating" interests="Eating" want_to_try="Food"/>
-        <ProfileButton name="John" hobbies="Cooking" interests="Food Reviews" want_to_try="5 Star Food"/>
-        <ProfileButton name="Mark" hobbies="Writing" interests="Movies" want_to_try="Directing"/>
-        <ProfileButton name="Ben" hobbies="Football" interests="Anime" want_to_try="Rugby"/>
-        <ProfileButton name="Dove" hobbies="Bird Watching" interests="Sculpting" want_to_try="Pottery"/>
-        <ProfileButton name="Lisa" hobbies="Snowboarding" interests="Sports" want_to_try="Sailing"/>
-        <ProfileButton name="Kenpachi" hobbies="Fighting" interests="Fighting" want_to_try="Fighting"/>
-        <ProfileButton name="Jessie" hobbies="Swimming" interests="Water" want_to_try="Surfing"/>
+        <ProfileButton name="JoJo" email="frontpage@example.com"/>
+        <ProfileButton name="Abem" email="frontpage@example.com"/>
+        <ProfileButton name="John" email="frontpage@example.com"/>
+        <ProfileButton name="Mark" email="frontpage@example.com"/>
+        <ProfileButton name="Ben" email="frontpage@example.com"/>
+        <ProfileButton name="Dove" email="frontpage@example.com"/>
+        <ProfileButton name="Lisa" email="frontpage@example.com"/>
+        <ProfileButton name="Kenpachi" email="frontpage@example.com"/>
+        <ProfileButton name="Jessie" email="frontpage@example.com"/>
       </div>
       </div>
       </div>
