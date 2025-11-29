@@ -13,7 +13,7 @@ export default function Users() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch("https://disc-assignment-5-users-api-iyct.onrender.com/api/users")
+        fetch(`${import.meta.env.VITE_URL}/users`)
         .then(res => res.json())
         .then(data => {
             console.log("Fetched users:", data);
@@ -35,10 +35,8 @@ export default function Users() {
         <div className="container">
         <div className="profile-grid">
             {users.map(user => (
-                <ProfileButton name={`${user.firstName} ${user.lastName}`}
-                hobbies = {user.major}
-                interests = {user.bio}
-                want_to_try= {user.graduationYear}
+                <ProfileButton name={`${user.first_name} ${user.last_name}`}
+                email = {user.email}
                 />
             ))}
         </div>
